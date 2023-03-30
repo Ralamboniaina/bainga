@@ -5,19 +5,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BaingaWagesCalculator {
+
+    private int numberOfPomodoro = 0;
+    private int hourSpent = 0;
+    private BigDecimal wages = BigDecimal.ZERO;
+    private ArrayList<DailyTask> dailyTasks = new ArrayList<>();
+
     public int numberOfPomodoro() {
-        return 0;
+        return numberOfPomodoro;
     }
 
     public int hourSpent() {
-        return 0;
+        return hourSpent;
     }
 
     public BigDecimal wages() {
-        return BigDecimal.ZERO;
+        return wages;
     }
 
     public List<DailyTask> dailyTasks() {
-        return new ArrayList<>();
+        return dailyTasks;
     }
 }
