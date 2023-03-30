@@ -7,15 +7,20 @@ import java.util.List;
 public class BaingaWagesCalculator {
 
     private int numberOfPomodoro = 0;
-    private int hourSpent = 0;
+    private double hourSpent = 0;
     private BigDecimal wages = BigDecimal.ZERO;
     private ArrayList<DailyTask> dailyTasks = new ArrayList<>();
+    private CommitRepository commitRepository;
+
+    public BaingaWagesCalculator(CommitRepository commitRepository) {
+        this.commitRepository = commitRepository;
+    }
 
     public int numberOfPomodoro() {
         return numberOfPomodoro;
     }
 
-    public int hourSpent() {
+    public double hourSpent() {
         return hourSpent;
     }
 
@@ -25,5 +30,10 @@ public class BaingaWagesCalculator {
 
     public List<DailyTask> dailyTasks() {
         return dailyTasks;
+    }
+
+    public void createReport() {
+        numberOfPomodoro = 1;
+        hourSpent = 0.5;
     }
 }

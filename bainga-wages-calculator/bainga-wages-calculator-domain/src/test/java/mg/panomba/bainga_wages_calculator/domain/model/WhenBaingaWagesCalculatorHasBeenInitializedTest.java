@@ -17,7 +17,7 @@ class WhenBaingaWagesCalculatorHasBeenInitializedTest {
         //ARRANGE
         BaingaWagesCalculator baingaWagesCalculator;
         //ACT
-        baingaWagesCalculator = new BaingaWagesCalculator();
+        baingaWagesCalculator = new BaingaWagesCalculator(null);
         //ASSERT
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isZero();
         assertThat(baingaWagesCalculator.hourSpent()).isZero();
