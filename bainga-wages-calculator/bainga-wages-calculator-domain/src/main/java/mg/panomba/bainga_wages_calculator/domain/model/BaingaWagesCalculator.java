@@ -37,5 +37,8 @@ public class BaingaWagesCalculator {
         numberOfPomodoro = 1;
         hourSpent = 0.5;
         wages = rate.multiply(BigDecimal.valueOf(hourSpent));
+        DailyTask dailyTask = new DailyTask();
+        dailyTask.addCommit(new Commit());
+        dailyTasks.add(dailyTask);
     }
 }
