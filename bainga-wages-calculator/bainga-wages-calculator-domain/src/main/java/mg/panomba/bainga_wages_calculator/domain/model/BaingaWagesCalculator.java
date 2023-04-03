@@ -38,7 +38,8 @@ public class BaingaWagesCalculator {
         hourSpent = 0.5;
         wages = rate.multiply(BigDecimal.valueOf(hourSpent));
         DailyTask dailyTask = new DailyTask();
-        dailyTask.addCommit(new Commit());
+        for (Commit commit : commitRepository.list())
+            dailyTask.addCommit(commit);
         dailyTasks.add(dailyTask);
     }
 }
