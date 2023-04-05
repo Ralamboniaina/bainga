@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("When bainga wages calculator has been inialized")
+@DisplayName("When bainga wages calculator has been initialized")
 class WhenBaingaWagesCalculatorHasBeenInitializedTest {
 
     @Test
@@ -22,7 +22,7 @@ class WhenBaingaWagesCalculatorHasBeenInitializedTest {
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isZero();
         assertThat(baingaWagesCalculator.hourSpent()).isZero();
         assertThat(baingaWagesCalculator.wages()).isCloseTo(BigDecimal.ZERO, Percentage.withPercentage(0));
-        assertThat(baingaWagesCalculator.dailyTasks()).isEmpty();
+        assertThat(baingaWagesCalculator.pomodoroList()).isEmpty();
     }
 
 }
