@@ -12,9 +12,19 @@ public class Pomodoro {
     private final List<Commit> commits = new ArrayList<>();
 
     public Pomodoro(Commit commit) {
-        start = commit.date().withMinute(0);
-        end = commit.date().withMinute(30);
+        start = commit.date().withMinute(commit.date().getMinute() < 30 ? 0 : 30);
+        end = commit.date()
+                .withHour(start.getMinute() == 30 ? commit.date().getHour() + 1 : commit.date().getHour())
+                .withMinute(commit.date().getMinute() < 30 ? 30 : 0);
         commits.add(commit);
+    }
+
+    public LocalDateTime start() {
+        return start;
+    }
+
+    public LocalDateTime end() {
+        return end;
     }
 
     @Override
