@@ -38,9 +38,12 @@ public class BaingaWagesCalculator {
         hourSpent = 0.5;
         wages = rate.multiply(BigDecimal.valueOf(hourSpent));
         for (Commit commit : commitRepository.list()) {
-            Pomodoro pomodoro = new Pomodoro();
-            pomodoro.addCommit(commit);
-            pomodoroList.add(pomodoro);
+            Pomodoro pomodoro = new Pomodoro(commit);
+            try {
+                pomodoroList.get(pomodoroList.indexOf(pomodoro)).addCommit(commit);
+            } catch (Exception e) {
+                pomodoroList.add(pomodoro);
+            }
         }
     }
 }
