@@ -9,8 +9,8 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("When there is one commit")
-class WhenThereIsOneCommitTest {
+@DisplayName("When there is one commit during a 30 minutes interval")
+class WhenThereIsOneCommitDuringA30MinutesIntervalTest {
 
     @Test
     @DisplayName("then report should contain one line")
