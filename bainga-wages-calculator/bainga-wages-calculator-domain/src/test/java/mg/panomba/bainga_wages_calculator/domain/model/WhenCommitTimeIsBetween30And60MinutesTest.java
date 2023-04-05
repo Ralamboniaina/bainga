@@ -12,7 +12,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("When commit time is between 30 and 60 minutes")
-class WhenCommitTimeIsBetween30And60Test {
+class WhenCommitTimeIsBetween30And60MinutesTest {
 
     @Test
     @DisplayName("then start time is 0 minute and end time is 30 minutes")

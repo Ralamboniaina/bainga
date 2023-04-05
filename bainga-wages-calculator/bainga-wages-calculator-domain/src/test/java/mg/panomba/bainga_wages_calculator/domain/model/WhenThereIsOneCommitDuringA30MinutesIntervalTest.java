@@ -18,11 +18,12 @@ class WhenThereIsOneCommitDuringA30MinutesIntervalTest {
     @DisplayName("then report should contain one line")
     void thenReportShouldContainOneLine() {
         //ARRANGE
-        CommitRepository commitRepository = () -> List.of(new Commit(
+        Commit commit = new Commit(
                 "id",
                 "author",
                 LocalDateTime.of(2023, Month.APRIL, 5, 22, 25),
-                "message"));
+                "message");
+        CommitRepository commitRepository = () -> List.of(commit);
         BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository);
         //ACT
         baingaWagesCalculator.createReport();
