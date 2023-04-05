@@ -5,6 +5,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
+import java.time.Month;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -16,7 +18,11 @@ class WhenThereIsOneCommitDuringA30MinutesIntervalTest {
     @DisplayName("then report should contain one line")
     void thenReportShouldContainOneLine() {
         //ARRANGE
-        CommitRepository commitRepository = () -> List.of(new Commit());
+        CommitRepository commitRepository = () -> List.of(new Commit(
+                "id",
+                "author",
+                LocalDateTime.of(2023, Month.APRIL, 5, 22, 25),
+                "message"));
         BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository);
         //ACT
         baingaWagesCalculator.createReport();

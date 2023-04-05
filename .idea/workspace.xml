@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a8b39d-0697-4f62-a7ae-7e8fd50eabb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Commit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/test/java/mg/panomba/bainga_wages_calculator/domain/model/WhenThereIsOneCommitDuringA30MinutesIntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/test/java/mg/panomba/bainga_wages_calculator/domain/model/WhenThereIsOneCommitDuringA30MinutesIntervalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,5 +87,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bainga$All_in_bainga_wages_calculator_domain.ic" NAME="All in bainga-wages-calculator-domain Coverage Results" MODIFIED="1680720943327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
