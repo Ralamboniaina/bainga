@@ -31,8 +31,8 @@ class WhenCommitTimeIsBetween30And60MinutesTest {
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isEqualTo(1);
         assertThat(baingaWagesCalculator.hourSpent()).isCloseTo(0.5D, Percentage.withPercentage(0));
         assertThat(baingaWagesCalculator.wages()).isCloseTo(BigDecimal.valueOf(5), Percentage.withPercentage(0));
-        assertThat(baingaWagesCalculator.pomodoroList().get(0).start()).isEqualTo(LocalDateTime.of(2023, Month.APRIL, 5, 22, 30));
-        assertThat(baingaWagesCalculator.pomodoroList().get(0).end()).isEqualTo(LocalDateTime.of(2023, Month.APRIL, 5, 23, 0));
+        assertThat(baingaWagesCalculator.dailyTasks().get(0).pomodoroList().get(0).start()).isEqualTo(LocalDateTime.of(2023, Month.APRIL, 5, 22, 30));
+        assertThat(baingaWagesCalculator.dailyTasks().get(0).pomodoroList().get(0).end()).isEqualTo(LocalDateTime.of(2023, Month.APRIL, 5, 23, 0));
     }
 
 }

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -17,12 +18,12 @@ class WhenBaingaWagesCalculatorHasBeenInitializedTest {
         //ARRANGE
         BaingaWagesCalculator baingaWagesCalculator;
         //ACT
-        baingaWagesCalculator = new BaingaWagesCalculator(null);
+        baingaWagesCalculator = new BaingaWagesCalculator(List::of);
         //ASSERT
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isZero();
         assertThat(baingaWagesCalculator.hourSpent()).isZero();
         assertThat(baingaWagesCalculator.wages()).isCloseTo(BigDecimal.ZERO, Percentage.withPercentage(0));
-        assertThat(baingaWagesCalculator.pomodoroList()).isEmpty();
+        assertThat(baingaWagesCalculator.dailyTasks()).isEmpty();
     }
 
 }

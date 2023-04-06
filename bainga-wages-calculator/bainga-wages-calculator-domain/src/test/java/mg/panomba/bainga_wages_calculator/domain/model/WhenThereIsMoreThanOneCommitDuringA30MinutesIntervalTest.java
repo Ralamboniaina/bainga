@@ -36,7 +36,7 @@ class WhenThereIsMoreThanOneCommitDuringA30MinutesIntervalTest {
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isEqualTo(1);
         assertThat(baingaWagesCalculator.hourSpent()).isCloseTo(0.5D, Percentage.withPercentage(0));
         assertThat(baingaWagesCalculator.wages()).isCloseTo(BigDecimal.valueOf(5), Percentage.withPercentage(0));
-        assertThat(baingaWagesCalculator.pomodoroList()).hasSize(1);
+        assertThat(baingaWagesCalculator.dailyTasks().get(0).pomodoroList()).hasSize(1);
     }
 
 }
