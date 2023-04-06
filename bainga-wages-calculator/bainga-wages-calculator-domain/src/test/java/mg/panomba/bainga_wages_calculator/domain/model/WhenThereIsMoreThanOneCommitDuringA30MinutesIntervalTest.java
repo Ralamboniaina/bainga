@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("When there is one commit during a 30 minutes interval")
+@DisplayName("When there is more than one commit during a 30 minutes interval")
 class WhenThereIsMoreThanOneCommitDuringA30MinutesIntervalTest {
 
     @Test
