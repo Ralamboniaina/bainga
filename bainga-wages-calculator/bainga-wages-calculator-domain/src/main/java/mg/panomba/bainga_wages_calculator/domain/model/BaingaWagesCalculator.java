@@ -6,12 +6,13 @@ import java.util.List;
 
 public class BaingaWagesCalculator {
 
+    private final CommitRepository commitRepository;
+    private final List<DailyTask> dailyTasks = new ArrayList<>();
+
     private int numberOfPomodoro = 0;
     private double hourSpent = 0;
     private BigDecimal wages = BigDecimal.ZERO;
     private BigDecimal rate = BigDecimal.TEN;
-    private final CommitRepository commitRepository;
-    private final List<DailyTask> dailyTasks = new ArrayList<>();
 
     public BaingaWagesCalculator(CommitRepository commitRepository) {
         this.commitRepository = commitRepository;
@@ -37,9 +38,7 @@ public class BaingaWagesCalculator {
         numberOfPomodoro = 1;
         hourSpent = 0.5;
         wages = rate.multiply(BigDecimal.valueOf(hourSpent));
-        for (Commit commit : commitRepository.list()) {
-            addCommit(commit);
-        }
+        for (Commit commit : commitRepository.list()) addCommit(commit);
     }
 
     private void addCommit(Commit commit) {

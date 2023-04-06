@@ -3,10 +3,10 @@ package mg.panomba.bainga_wages_calculator.domain.model;
 import java.time.LocalDateTime;
 
 public class Commit {
-    private String id;
-    private String author;
-    private LocalDateTime date;
-    private String message;
+    private final String id;
+    private final String author;
+    private final LocalDateTime date;
+    private final String message;
 
     public Commit(String id, String author, LocalDateTime date, String message) {
         this.id = id;
