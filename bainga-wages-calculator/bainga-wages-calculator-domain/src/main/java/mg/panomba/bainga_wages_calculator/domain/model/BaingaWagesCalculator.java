@@ -11,7 +11,7 @@ public class BaingaWagesCalculator {
     private BigDecimal wages = BigDecimal.ZERO;
     private BigDecimal rate = BigDecimal.TEN;
     private final CommitRepository commitRepository;
-    private List<DailyTask> dailyTasks = new ArrayList<>();
+    private final List<DailyTask> dailyTasks = new ArrayList<>();
 
     public BaingaWagesCalculator(CommitRepository commitRepository) {
         this.commitRepository = commitRepository;
