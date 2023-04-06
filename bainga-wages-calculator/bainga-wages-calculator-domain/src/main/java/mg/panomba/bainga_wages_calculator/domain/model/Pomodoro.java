@@ -27,6 +27,10 @@ public class Pomodoro {
         return end;
     }
 
+    public List<Commit> commits() {
+        return commits;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
