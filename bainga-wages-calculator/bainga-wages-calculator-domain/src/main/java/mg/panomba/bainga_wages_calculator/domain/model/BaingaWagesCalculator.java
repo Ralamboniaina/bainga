@@ -10,7 +10,6 @@ public class BaingaWagesCalculator {
     private double hourSpent = 0;
     private BigDecimal wages = BigDecimal.ZERO;
     private BigDecimal rate = BigDecimal.TEN;
-    private List<Pomodoro> pomodoroList = new ArrayList<>();
     private CommitRepository commitRepository;
     private List<DailyTask> dailyTasks = new ArrayList<>();
 
@@ -28,10 +27,6 @@ public class BaingaWagesCalculator {
 
     public BigDecimal wages() {
         return wages;
-    }
-
-    public List<Pomodoro> pomodoroList() {
-        return pomodoroList;
     }
 
     public List<DailyTask> dailyTasks() {
