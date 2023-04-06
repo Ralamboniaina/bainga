@@ -46,4 +46,8 @@ public class BaingaWagesCalculator {
             }
         }
     }
+
+    public List<DailyTask> dailyTasks() {
+        return List.of(new DailyTask());
+    }
 }
