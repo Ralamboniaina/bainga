@@ -9,25 +9,24 @@ public class BaingaWagesCalculator {
     private final CommitRepository commitRepository;
     private final List<DailyTask> dailyTasks = new ArrayList<>();
 
-    private int numberOfPomodoro = 0;
-    private double hourSpent = 0;
-    private BigDecimal wages = BigDecimal.ZERO;
-    private BigDecimal rate = BigDecimal.TEN;
+    private final BigDecimal rate = BigDecimal.TEN;
 
     public BaingaWagesCalculator(CommitRepository commitRepository) {
         this.commitRepository = commitRepository;
     }
 
     public int numberOfPomodoro() {
-        return numberOfPomodoro;
+        int result = 0;
+        for (DailyTask dailyTask : dailyTasks) result = result + dailyTask.pomodoroList().size();
+        return result;
     }
 
     public double hourSpent() {
-        return hourSpent;
+        return numberOfPomodoro() * 0.5;
     }
 
     public BigDecimal wages() {
-        return wages;
+        return BigDecimal.valueOf(hourSpent()).multiply(rate);
     }
 
     public List<DailyTask> dailyTasks() {
@@ -35,9 +34,6 @@ public class BaingaWagesCalculator {
     }
 
     public void createReport() {
-        numberOfPomodoro = 1;
-        hourSpent = 0.5;
-        wages = rate.multiply(BigDecimal.valueOf(hourSpent));
         for (Commit commit : commitRepository.list()) addCommit(commit);
     }
 
