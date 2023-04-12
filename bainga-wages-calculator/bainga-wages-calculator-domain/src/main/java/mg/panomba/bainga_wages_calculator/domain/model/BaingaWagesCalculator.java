@@ -15,18 +15,18 @@ public class BaingaWagesCalculator {
         this.commitRepository = commitRepository;
     }
 
-    public int numberOfPomodoro() {
-        int result = 0;
-        for (DailyTask dailyTask : dailyTasks) result = result + dailyTask.pomodoroList().size();
-        return result;
+    public BigDecimal wages() {
+        return BigDecimal.valueOf(hourSpent()).multiply(rate);
     }
 
     public double hourSpent() {
         return numberOfPomodoro() * 0.5;
     }
 
-    public BigDecimal wages() {
-        return BigDecimal.valueOf(hourSpent()).multiply(rate);
+    public int numberOfPomodoro() {
+        int result = 0;
+        for (DailyTask dailyTask : dailyTasks) result = result + dailyTask.pomodoroList().size();
+        return result;
     }
 
     public List<DailyTask> dailyTasks() {
@@ -45,4 +45,5 @@ public class BaingaWagesCalculator {
             dailyTasks.add(dailyTask);
         }
     }
+
 }
