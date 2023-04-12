@@ -8,7 +8,6 @@ public class BaingaWagesCalculator {
 
     private final CommitRepository commitRepository;
     private final List<DailyTask> dailyTasks = new ArrayList<>();
-
     private final BigDecimal rate;
 
     public BaingaWagesCalculator(CommitRepository commitRepository, BigDecimal rate) {

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a8b39d-0697-4f62-a7ae-7e8fd50eabb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorOutputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorOutputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/test/java/mg/panomba/bainga_wages_calculator/application/WhenReportHasBeenCreatedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="TestClass" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,10 +50,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="mg.panomba.bainga_wages_calculator.application" />
       <recent name="mg.panomba.bainga_wages_calculator.domain.model" />
       <recent name="mg.panomba.bainga_wages_calculator_domain.domain.model" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mg.panomba.bainga_wages_calculator.application" />
       <recent name="mg.panomba.bainga_wages_calculator.domain.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
