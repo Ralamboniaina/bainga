@@ -9,10 +9,11 @@ public class BaingaWagesCalculator {
     private final CommitRepository commitRepository;
     private final List<DailyTask> dailyTasks = new ArrayList<>();
 
-    private final BigDecimal rate = BigDecimal.TEN;
+    private final BigDecimal rate;
 
-    public BaingaWagesCalculator(CommitRepository commitRepository) {
+    public BaingaWagesCalculator(CommitRepository commitRepository, BigDecimal rate) {
         this.commitRepository = commitRepository;
+        this.rate = rate;
     }
 
     public BigDecimal wages() {

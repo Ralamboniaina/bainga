@@ -18,7 +18,7 @@ class WhenBaingaWagesCalculatorHasBeenInitializedTest {
         //ARRANGE
         BaingaWagesCalculator baingaWagesCalculator;
         //ACT
-        baingaWagesCalculator = new BaingaWagesCalculator(List::of);
+        baingaWagesCalculator = new BaingaWagesCalculator(List::of, BigDecimal.TEN);
         //ASSERT
         assertThat(baingaWagesCalculator.numberOfPomodoro()).isZero();
         assertThat(baingaWagesCalculator.hourSpent()).isZero();

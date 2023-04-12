@@ -29,7 +29,7 @@ class WhenThereIsMoreThanOneCommitDuringA30MinutesIntervalTest {
                 LocalDateTime.of(2023, Month.APRIL, 5, 22, 25),
                 "message2");
         CommitRepository commitRepository = () -> List.of(commit1, commit2);
-        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository);
+        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository, BigDecimal.TEN);
         //ACT
         baingaWagesCalculator.createReport();
         //ASSERT

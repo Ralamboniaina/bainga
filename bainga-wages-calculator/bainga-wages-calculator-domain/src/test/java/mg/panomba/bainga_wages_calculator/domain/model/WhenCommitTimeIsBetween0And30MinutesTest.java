@@ -24,7 +24,7 @@ class WhenCommitTimeIsBetween0And30MinutesTest {
                 LocalDateTime.of(2023, Month.APRIL, 5, 22, 25),
                 "message");
         CommitRepository commitRepository = () -> List.of(commit);
-        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository);
+        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository, BigDecimal.TEN);
         //ACT
         baingaWagesCalculator.createReport();
         //ASSERT

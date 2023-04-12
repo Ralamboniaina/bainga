@@ -3,6 +3,7 @@ package mg.panomba.bainga_wages_calculator.domain.model;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.List;
@@ -19,7 +20,7 @@ class WhenThereIsMoreThanOnePomodoroTest {
         Commit commit1 = new Commit("id1", "author", LocalDateTime.of(2023, Month.APRIL, 6, 22, 20), "message1");
         Commit commit2 = new Commit("id2", "author", LocalDateTime.of(2023, Month.APRIL, 6, 23, 20), "message2");
         CommitRepository commitRepository = () -> List.of(commit1, commit2);
-        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository);
+        BaingaWagesCalculator baingaWagesCalculator = new BaingaWagesCalculator(commitRepository, BigDecimal.TEN);
         //ACT
         baingaWagesCalculator.createReport();
         List<DailyTask> dailyTasks = baingaWagesCalculator.dailyTasks();
