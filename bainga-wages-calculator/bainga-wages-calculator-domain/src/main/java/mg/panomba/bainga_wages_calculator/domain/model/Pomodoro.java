@@ -12,10 +12,15 @@ public class Pomodoro {
     private final List<Commit> commits = new ArrayList<>();
 
     public Pomodoro(Commit commit) {
-        start = commit.date().withMinute(commit.date().getMinute() < 30 ? 0 : 30);
+        start = commit.date()
+                .withMinute(commit.date().getMinute() < 30 ? 0 : 30)
+                .withSecond(0)
+                .withNano(0);
         end = commit.date()
                 .withHour(start.getMinute() == 30 ? commit.date().getHour() + 1 : commit.date().getHour())
-                .withMinute(commit.date().getMinute() < 30 ? 30 : 0);
+                .withMinute(commit.date().getMinute() < 30 ? 30 : 0)
+                .withSecond(0)
+                .withNano(0);
         commits.add(commit);
     }
 

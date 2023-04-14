@@ -15,6 +15,14 @@ public class DailyTask {
         addCommit(commit);
     }
 
+    public LocalDate date() {
+        return date;
+    }
+
+    public List<Pomodoro> pomodoroList() {
+        return pomodoroList;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -25,10 +33,6 @@ public class DailyTask {
     @Override
     public int hashCode() {
         return Objects.hash(date);
-    }
-
-    public List<Pomodoro> pomodoroList() {
-        return pomodoroList;
     }
 
     public void addCommit(Commit commit) {
