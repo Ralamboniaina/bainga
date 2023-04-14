@@ -16,7 +16,7 @@ public class BaingaWagesCalculatorCommitPresenter implements BaingaWagesCalculat
             for (PomodoroOuptputData pomodoroOuptputData : dailyTaskOutputData.pomodoro()) {
                 System.out.println("\tInterval: " + pomodoroOuptputData.interval());
                 for (CommitOutputData commitOutputData : pomodoroOuptputData.commits()) {
-                    System.out.printf("\t\tCommit: %s %s%n", commitOutputData.id(), commitOutputData.message());
+                    System.out.printf("\t\tCommit %s: %s%n", commitOutputData.id(), commitOutputData.message());
                 }
             }
         }
