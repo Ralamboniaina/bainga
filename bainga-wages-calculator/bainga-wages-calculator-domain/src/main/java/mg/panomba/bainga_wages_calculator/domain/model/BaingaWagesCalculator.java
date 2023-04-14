@@ -46,4 +46,7 @@ public class BaingaWagesCalculator {
         }
     }
 
+    public BigDecimal rate() {
+        return rate;
+    }
 }

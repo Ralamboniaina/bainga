@@ -32,4 +32,8 @@ public class BaingaWagesCalculatorOutputData {
     public BigDecimal wages() {
         return baingaWagesCalculator.wages();
     }
+
+    public BigDecimal rate() {
+        return baingaWagesCalculator.rate();
+    }
 }
