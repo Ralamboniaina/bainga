@@ -2,7 +2,7 @@ package mg.panomba.bainga_wages_calculator_console;
 
 import mg.panomba.bainga_wages_calculator.application.*;
 
-public class BaingaWagesCalculatorCommitPresenter implements BaingaWagesCalculatorOutputBoundary {
+public class BaingaWagesCalculatorConsolePresenter implements BaingaWagesCalculatorOutputBoundary {
 
     @Override
     public void print(BaingaWagesCalculatorOutputData outputData) {

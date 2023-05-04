@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a8b39d-0697-4f62-a7ae-7e8fd50eabb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-excel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-excel/src/main/java/mg/panomba/bainga_wages_calculator_excel/BaingaWagesCalculatorExcelPresenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorOutputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorOutputData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-console/src/main/java/mg/panomba/bainga_wages_calculator_console/BaingaWagesCalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.report.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,7 @@
       <recent name="mg.panomba.bainga_wages_calculator.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaingaWagesCalculatorMain">
+  <component name="RunManager" selected="JUnit.All in bainga-wages-calculator-domain">
     <configuration name="BaingaWagesCalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mg.panomba.bainga_wages_calculator_main.BaingaWagesCalculatorMain" />
       <module name="bainga-wages-calculator-main" />
@@ -91,8 +86,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaingaWagesCalculatorMain" />
         <item itemvalue="JUnit.All in bainga-wages-calculator-domain" />
+        <item itemvalue="Application.BaingaWagesCalculatorMain" />
       </list>
     </recent_temporary>
   </component>
