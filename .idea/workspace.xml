@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a8b39d-0697-4f62-a7ae-7e8fd50eabb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.~lock.report.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Pomodoro.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Pomodoro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +55,11 @@
       <recent name="mg.panomba.bainga_wages_calculator.domain.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mg.panomba.bainga_wages_calculator_commit_from_database" />
       <recent name="mg.panomba.bainga_wages_calculator.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in bainga-wages-calculator-domain">
+  <component name="RunManager" selected="Application.BaingaWagesCalculatorMain">
     <configuration name="BaingaWagesCalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mg.panomba.bainga_wages_calculator_main.BaingaWagesCalculatorMain" />
       <module name="bainga-wages-calculator-main" />
@@ -75,6 +76,8 @@
     <configuration name="All in bainga-wages-calculator-domain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bainga-wages-calculator-domain" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,8 +89,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in bainga-wages-calculator-domain" />
         <item itemvalue="Application.BaingaWagesCalculatorMain" />
+        <item itemvalue="JUnit.All in bainga-wages-calculator-domain" />
       </list>
     </recent_temporary>
   </component>

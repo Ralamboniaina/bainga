@@ -17,7 +17,7 @@ public class Pomodoro {
                 .withSecond(0)
                 .withNano(0);
         end = commit.date()
-                .withHour(start.getMinute() == 30 ? commit.date().getHour() + 1 : commit.date().getHour())
+                .withHour(start.getMinute() == 30 ? commit.date().getHour() == 23 ? 0 : commit.date().getHour() + 1 : commit.date().getHour())
                 .withMinute(commit.date().getMinute() < 30 ? 30 : 0)
                 .withSecond(0)
                 .withNano(0);

@@ -13,7 +13,7 @@ public class BaingaWagesCalculatorMain {
     public static void main(String[] args) {
         CommitRepository commitRepository = new BaingaWagesCalculatorCommitFromCommandLine("/Users/andrianarison/Documents/WORK/PANOMBA/hexagone-backoffice");
         BaingaWagesCalculatorOutputBoundary outputBoundary = new BaingaWagesCalculatorConsolePresenter();
-        BigDecimal rate = BigDecimal.valueOf(20000);
+        BigDecimal rate = BigDecimal.valueOf(40000);
         new BaingaWagesCalculatorApplication(commitRepository, outputBoundary, rate).createReport();
     }
 

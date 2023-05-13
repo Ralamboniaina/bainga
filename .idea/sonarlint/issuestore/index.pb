@@ -3,3 +3,19 @@
 £bainga-wages-calculator/bainga-wages-calculator-domain/src/test/java/mg/panomba/bainga_wages_calculator/domain/model/WhenCommitTimeIsBetween30And60MinutesTest.java,4/8/4820219b4032c65fdb032d4d5e7c3e1e2ef13d9f
 „
 ≤bainga-wages-calculator/bainga-wages-calculator-domain/src/test/java/mg/panomba/bainga_wages_calculator/domain/model/WhenThereIsMoreThanOneCommitDuringA30MinutesIntervalTest.java,4/7/47f7cc1d79204cd6c8a830e0da1b66aadcba94c0
+ 
+ôbainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/application/BaingaWagesCalculatorApplication.java,7/f/7fae53de4e9334e27c3f4f4e2927fac87df3e53e
+ª
+äbainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/CommitRepository.java,0/8/08e7f3d08300d055724f70e716e11f1c453aa92d
+ö
+Èbainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-commit-from-command-line/src/main/java/mg/panomba/bainga_wages_calculator_commit_from_command_line/BaingaWagesCalculatorCommitFromCommandLine.java,a/6/a6f9028de6dae8e7c43179ada48a5638a26e95d2
+î
+dbainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-excel/pom.xml,2/5/25ca0108159c752a7e5d05d31184d7cd7821e346
+ß
+wbainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-commit-from-command-line/pom.xml,5/0/50f6e28edfe3c25ed681b8c11a2c8eb3f9cd8903
+v
+Fbainga-wages-calculator/bainga-wages-calculator-infrastructure/pom.xml,6/3/638d1eeb680711c3cf593a03f7433aff991e65f3
+n
+>bainga-wages-calculator/bainga-wages-calculator-domain/pom.xml,c/5/c5859392fc1851df0a2bd92aa741cc8a838827ad
+¿
+èbainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java,2/7/27fb52fc71392ed2cdd756de4a32d96fdfeac0d9
