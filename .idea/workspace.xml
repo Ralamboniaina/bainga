@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="71a8b39d-0697-4f62-a7ae-7e8fd50eabb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Pomodoro.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Pomodoro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-excel/src/main/java/mg/panomba/bainga_wages_calculator_excel/BaingaWagesCalculatorExcelPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-excel/src/main/java/mg/panomba/bainga_wages_calculator_excel/BaingaWagesCalculatorExcelPresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/bainga-wages-calculator/bainga-wages-calculator-infrastructure/bainga-wages-calculator-main/src/main/java/mg/panomba/bainga_wages_calculator_main/BaingaWagesCalculatorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;graalvm-17&quot;
   }
 }</component>

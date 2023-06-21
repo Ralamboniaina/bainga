@@ -4,15 +4,15 @@ import mg.panomba.bainga_wages_calculator.application.BaingaWagesCalculatorAppli
 import mg.panomba.bainga_wages_calculator.application.BaingaWagesCalculatorOutputBoundary;
 import mg.panomba.bainga_wages_calculator.domain.model.CommitRepository;
 import mg.panomba.bainga_wages_calculator_commit_from_command_line.BaingaWagesCalculatorCommitFromCommandLine;
-import mg.panomba.bainga_wages_calculator_console.BaingaWagesCalculatorConsolePresenter;
+import mg.panomba.bainga_wages_calculator_excel.BaingaWagesCalculatorExcelPresenter;
 
 import java.math.BigDecimal;
 
 public class BaingaWagesCalculatorMain {
 
     public static void main(String[] args) {
-        CommitRepository commitRepository = new BaingaWagesCalculatorCommitFromCommandLine("/Users/andrianarison/Documents/WORK/PANOMBA/hexagone-backoffice");
-        BaingaWagesCalculatorOutputBoundary outputBoundary = new BaingaWagesCalculatorConsolePresenter();
+        CommitRepository commitRepository = new BaingaWagesCalculatorCommitFromCommandLine("/Users/andrianarison/Documents/WORK/MD2I/seed-reporting");
+        BaingaWagesCalculatorOutputBoundary outputBoundary = new BaingaWagesCalculatorExcelPresenter();
         BigDecimal rate = BigDecimal.valueOf(40000);
         new BaingaWagesCalculatorApplication(commitRepository, outputBoundary, rate).createReport();
     }

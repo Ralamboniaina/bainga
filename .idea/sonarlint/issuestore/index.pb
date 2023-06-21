@@ -19,3 +19,5 @@ n
 >bainga-wages-calculator/bainga-wages-calculator-domain/pom.xml,c/5/c5859392fc1851df0a2bd92aa741cc8a838827ad
 ¿
 èbainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/BaingaWagesCalculator.java,2/7/27fb52fc71392ed2cdd756de4a32d96fdfeac0d9
+≥
+Çbainga-wages-calculator/bainga-wages-calculator-domain/src/main/java/mg/panomba/bainga_wages_calculator/domain/model/Pomodoro.java,e/c/ec79d1074183605ff74e339117e2cfad05def2b6
