@@ -16,7 +16,7 @@ public class BaingaWagesCalculatorExcelPresenter implements BaingaWagesCalculato
         try {
             workbook = WorkbookFactory.create(ClassLoader.getSystemResourceAsStream("template.xlsx"));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new IllegalStateException(e);
         }
     }
 
@@ -53,7 +53,7 @@ public class BaingaWagesCalculatorExcelPresenter implements BaingaWagesCalculato
                     workbook.getSheetAt(0).getRow(currentRow).getCell(1).setCellValue(commit.message());
                     workbook.getSheetAt(0).getRow(currentRow).getCell(2).setCellValue(repositoryURL.concat(commit.id()));
                     workbook.getSheetAt(0).getRow(currentRow).getCell(3).setCellValue(pomodoroOuptputData.interval());
-                    workbook.getSheetAt(0).getRow(currentRow).getCell(4).setCellValue(0.5);
+                    workbook.getSheetAt(0).getRow(currentRow).getCell(4).setCellValue(0.5D);
                     currentRow++;
                     mergeDailyTaskEnd++;
                     mergePomodoroEnd++;
@@ -69,7 +69,7 @@ public class BaingaWagesCalculatorExcelPresenter implements BaingaWagesCalculato
         try {
             workbook.write(new FileOutputStream("report.xlsx"));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new IllegalStateException(e);
         }
     }
 }
